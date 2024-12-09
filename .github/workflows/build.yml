@@ -36,4 +36,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=jonk1821059_aws-lambda-java-workshop_00532223-4872-490b-b438-286b55d18c06 -Dsonar.projectName='aws-lambda-java-workshop'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=jonk1821059_aws-lambda-java-workshop_3c9c6a41-eacb-4840-ab15-dc0bcac0c098 -Dsonar.projectName='aws-lambda-java-workshop'
